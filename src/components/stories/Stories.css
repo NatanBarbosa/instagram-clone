@@ -1,0 +1,55 @@
+.new-stories{
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stories-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.new-stories h3{
+    text-align: center;
+    font-size: 16px;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 25px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    width: 180px;
+    margin-top: -30px;
+    align-self: flex-end;
+}
+
+.Storie {
+    display: flex;
+    flex-direction: column;
+}
+
+.Storie:hover{
+    cursor: pointer;
+}
+
+.Storie .prof-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.new-storie{
+    background: linear-gradient(purple, orange);
+    padding: 3px;
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    align-self: center;
+}
+
+.prof-username{
+    font-size: 13px;
+}
