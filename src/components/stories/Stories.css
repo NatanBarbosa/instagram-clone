@@ -1,4 +1,4 @@
-.new-stories{
+.new-stories {
     padding: 20px;
     border: 1px solid #dbdbdb;
     background: white;
@@ -11,9 +11,25 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    overflow-x: auto;
+    cursor: grab;
 }
 
-.new-stories h3{
+.stories-box::-webkit-scrollbar {
+    height: 8px;
+}
+
+.stories-box::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+.stories-box::-webkit-scrollbar-thumb {
+    background-color: #adadad;
+    border-radius: 20px;
+}
+
+.new-stories h3 {
     text-align: center;
     font-size: 16px;
     background: white;
@@ -30,18 +46,11 @@
     flex-direction: column;
 }
 
-.Storie:hover{
+.Storie:hover {
     cursor: pointer;
 }
 
-.Storie .prof-picture {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.new-storie{
+.new-storie {
     background: linear-gradient(purple, orange);
     padding: 3px;
     border-radius: 50%;
@@ -50,6 +59,6 @@
     align-self: center;
 }
 
-.prof-username{
+.prof-username {
     font-size: 13px;
 }

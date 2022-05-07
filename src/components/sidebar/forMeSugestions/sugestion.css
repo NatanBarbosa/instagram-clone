@@ -1,0 +1,44 @@
+.Sugestion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.TheirInfos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex: 80%;
+}
+
+.TheirInfos .nickname{
+    font-size: 14px;
+    font-weight: 700;
+} 
+
+.TheirInfos .nickname:hover, .Sugestion img:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.TheirInfos .followedBy{
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.button-box{
+    margin-left: auto;
+}
+
+.follow{
+    background: transparent;
+    border: transparent;
+    color: #21a2f6;
+    font-weight: bold;
+    font-size: 14px;
+}

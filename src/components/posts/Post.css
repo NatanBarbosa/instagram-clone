@@ -1,8 +1,110 @@
-.post {
-    border: 1px #333333 solid;
-    margin: 2% 0 ;
+.Post {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
 }
 
-.post__image {
-    width:100%;
+.Post .header{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.Post .header .nickname {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.moreOptions{
+    margin-left: auto;
+    font-size: 19px;
+}
+
+.moreOptions:hover{
+    cursor: pointer;
+}
+
+.postMedia{
+    width: 100%;
+}
+
+.interactions{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btnFormat{
+    background: transparent;
+    border: transparent;
+    font-size: 25px;
+}
+
+.likedBy, .commentSection{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.captions, .postDate{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.showComments{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+}
+
+.moreComments, .postDate{
+    color: #9d9d9d;
+}
+
+.moreComments:hover{
+    cursor: pointer;
+}
+
+.commentSection{
+    border-top: 1px solid #e7e7e7;
+}
+
+.commentDiv{
+    width: 100%;
+}
+
+.commentInput{
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+
+.btnPub{
+    background: transparent;
+    border: transparent;
+    color: #0095f6;
+    font-weight: 700;
+    font-size: 15px;
+    justify-self: end;
+}
+
+.pub-box{
+    margin-left: auto;
 }

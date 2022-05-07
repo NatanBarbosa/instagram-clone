@@ -2,8 +2,8 @@ import React from "react";
 import './Navbar.css';
 import prof_pictire_src from '../../images/shinji.jpg';
 
-function Navbar(){
-    return(
+function Navbar() {
+    return (
         <div className="app__header">
             <div className="app__headerWrapper">
                 <img
@@ -12,16 +12,16 @@ function Navbar(){
                 />
 
                 <div className="app__headerSearch">
-                    <input type="text" name="appSearch" id="appSearch" className="appSearch" placeholder="Pesquisar"/>
+                    <input type="text" name="appSearch" id="appSearch" className="appSearch" placeholder="Pesquisar" />
                 </div>
 
                 <div className="app__headerButtons">
-                    <button type="button"><i class="fa-solid fa-house"></i></button>
-                    <button type="button"><i class="fa-regular fa-paper-plane"></i></button>
-                    <button type="button"><i class="fa-solid fa-plus"></i></button>
-                    <button type="button"><i class="fa-regular fa-compass"></i></button>
-                    <button type="button"><i class="fa-regular fa-heart"></i></button>
-                    <button type="button"><img src={prof_pictire_src} alt="foto de perfil" className="prof-picture"/></button>
+                    <button type="button"><i className="fa-solid fa-house"></i></button>
+                    <button type="button"><i className="fa-regular fa-paper-plane"></i></button>
+                    <button type="button"><i className="fa-solid fa-plus"></i></button>
+                    <button type="button"><i className="fa-regular fa-compass"></i></button>
+                    <button type="button"><i className="fa-regular fa-heart"></i></button>
+                    <button type="button"><img src={prof_pictire_src} alt="foto de perfil" className="prof-picture" /></button>
                 </div>
             </div>
         </div>

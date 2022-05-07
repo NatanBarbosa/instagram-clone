@@ -20,6 +20,15 @@ body {
   padding: 20px;
 }
 
+.feed{
+  position: relative;
+}
+
 .sugestions-box{
   margin-top: 20px !important;
+}
+
+.sticky-box{
+  position: sticky;
+  top: 74px;
 }

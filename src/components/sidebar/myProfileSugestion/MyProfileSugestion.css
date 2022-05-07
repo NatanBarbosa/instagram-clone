@@ -1,0 +1,33 @@
+.MyProfleSugestion{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.MyInfos{
+    display: flex;
+    flex-direction: column;
+}
+
+.MyInfos .nickname{
+    font-size: 14px;
+    font-weight: 700;
+} 
+
+.MyInfos .realName{
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.button-box{
+    margin-left: auto;
+}
+
+.changeAcc{
+    background: transparent;
+    border: transparent;
+    color: #21a2f6;
+    font-weight: bold;
+    font-size: 14px;
+}

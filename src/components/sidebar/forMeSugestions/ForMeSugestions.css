@@ -1,0 +1,29 @@
+.ForMeSugestions{
+    margin-top: 20px;
+}
+
+.ForMeSugestions .title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ForMeSugestions .title-box h3{
+    display: inline;
+    font-size: 15px;
+    font-weight: 600;
+    color: #939393;
+}
+
+.seeAllSugestions{
+    background: transparent;
+    border: transparent;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sugestions-box{
+    display: flex;
+    flex-direction: column;
+}
+
