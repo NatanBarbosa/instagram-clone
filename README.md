@@ -5,3 +5,4 @@ O site foi estruturado principalmente com base nos componentes do react, com a a
 
 O resultado final da tela ficou assim:
 
+![print do site](layout-site.jpg)
