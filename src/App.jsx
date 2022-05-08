@@ -7,6 +7,7 @@ import Stories from "./components/stories/Stories";
 import Storie from "./components/stories/Storie";
 import MyProfleSugestion from "./components/sidebar/myProfileSugestion/MyProfileSugestion";
 import ForMeSugestions from "./components/sidebar/forMeSugestions/ForMeSugestions";
+import About from "./components/sidebar/about/About";
 
 //profileImagens
 import userImage1 from "./images/shinji.jpg";
@@ -163,6 +164,8 @@ function App() {
 							<MyProfleSugestion/>
 
 							<ForMeSugestions />
+
+							<About />
 						</div>
 					</div>
 				</div>

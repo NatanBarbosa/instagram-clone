@@ -1,0 +1,25 @@
+
+.About{
+    margin-top: 25px;
+}
+
+.aboutButtons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnMore{
+    background: transparent;
+    border: transparent;
+    font-size: 13px;
+    color: #c7c7c7;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 15px;
+}
